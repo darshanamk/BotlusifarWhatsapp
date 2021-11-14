@@ -15,8 +15,8 @@ var code = Buffer.from(ruq.cd, 'base64')
 var file = code.toString('utf-8')
 const Alexa = require('../config');
 const capt = "🧛‍♂️ * FB DOWNLOADER* 💜\n"
-const DOWNMSG = "🧛‍♂️ *DOWNLOADING FB VIDEO...* 🤍"
-const UPMSG = "🧛‍♂️ _*U P L O A D I N G*_  💕"
+const DOWNMSG = "🧛‍♂️ *DOWNLOADING FB VIDEO...* 💚"
+const UPMSG = "🧛‍♂️ _*U P L O A D I N G*_  🧡"
 let ramiya = Alexa.WORKTYPE == 'public' ? false : true
 let teenuh = Alexa.WORKTYPE == 'public' ? true : false
 
