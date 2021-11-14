@@ -4,9 +4,9 @@ const axios = require('axios');
 const { errorMessage, infoMessage } = require('../helpers');
 const Config = require('../config');
 const YT_NEED = "*need word!.*"
-const DWLOAD_VID = "*🎭Downloading Your Video...*"
-const YTV_UP = "*🚀Uploading Your Video...*"
-const NO_RESULT = "*🌀can't Find Anything...*"
+const DWLOAD_VID = "*⚕️NETHMIKA BOT⚕️ 😎(っ◔◡◔)っDownloading Your Video...*"
+const YTV_UP = "*⚕️NETHMIK BOT⚕️ 🤪𝗨𝗽𝗹𝗼𝗮𝗱𝗶𝗻𝗴 𝗬𝗼𝘂𝗿 𝗩𝗶𝗱𝗲𝗼...*"
+const NO_RESULT = "*⚕️NETHMIKA BOY⚕️ 🎃𝕔𝕒𝕟'𝕥 𝔽𝕚𝕟𝕕 𝔸𝕟𝕪𝕥𝕙𝕚𝕟𝕘...*"
 const tk = Config.WORKTYPE == 'public' ? false : true
 
     lusifar.addCommand({ pattern: 'video ?(.*)', fromMe: tk, deleteCommand: false, desc: "Download videos",  deleteCommand: false}, async (message, match) => {
